@@ -2,6 +2,7 @@ var rong = module.exports = require('fis');
 
 fis.cli.name = 'rong';
 fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
+fis.cli.version = require('./version.js');
 
 fis.config.set('modules.parser.css', 'less');
 fis.config.set('settings.optimizer.png-compressor.type', 'pngquant');
