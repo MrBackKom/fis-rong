@@ -1,0 +1,44 @@
+{
+  "name": "rong",
+  "version": "0.3.0",
+  "description": "基于fis的前端解决方案",
+  "main": "index.js",
+  "bin": {
+    "rong": "bin/rong",
+    "fis-rong": "bin/rong"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBackKom/fis-rong.git"
+  },
+  "keywords": [
+    "rong",
+    "fis",
+    "fis-rong"
+  ],
+  "author": {
+    "name": "mrbackkom"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrBackKom/fis-rong/issues"
+  },
+  "homepage": "https://github.com/MrBackKom/fis-rong",
+  "dependencies": {
+    "fis": "^1.9.28",
+    "fis-parser-less": "^0.1.3",
+    "fis-parser-utc": "0.0.2",
+    "fis-postpackager-autoload": "0.0.20",
+    "fis-postpackager-simple": "0.0.26",
+    "fis-postprocessor-require-async": "0.0.9",
+    "fis-spriter-csssprites": "0.3.0"
+  },
+  "gitHead": "77dd2f688c7b1f5b23a60ae6d72dca8327edbb31",
+  "readme": "ERROR: No README data found!",
+  "_id": "rong@0.3.0",
+  "_shasum": "da576357d936a20bbec8454be21c89b9b734c150",
+  "_from": "rong@*"
+}
